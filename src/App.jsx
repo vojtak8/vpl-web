@@ -1,24 +1,36 @@
 import styles from './style.js';
+import  {  NavBar,
+    Hero,
+    Aktuality,
+    Nase_sluzby,
+    Kontakty,
+    Objednat,
+    Buttons,
+    Footer } from './components';
+
 
 const App = () => (
         <div className="bg-primary w-full overflow-hidden">
             <div className={`${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
-                    <h1 className={`${styles.heading2}`}>navbar</h1>
+                    <NavBar />
                 </div>
             </div>
             <div className={`bg-primary ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
-                    Hero1
+                    <Hero />
                 </div>
             </div>
 
             <div className={`bg-primary ${styles.flexStart} ${styles.paddingX}`}>
                 <div className={`${styles.boxWidth}`}>
-                    Aktuality
-                    Naše služby
-                    Objednat
-                    Footer
+                    <Aktuality />
+                    <Nase_sluzby />
+                    <Objednat />
+                    <Kontakty />
+                    <Footer />
+                    <Buttons />
+
 
 
                 </div>
