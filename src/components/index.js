@@ -6,6 +6,7 @@ import Kontakty from './Kontakty.jsx'
 import Objednat from './Objednat.jsx'
 import Buttons from './Buttons.jsx'
 import Footer from './Footer.jsx'
+import ButtonKontakty from './ButtonKontakty.jsx'
 
 export {
     NavBar,
@@ -15,5 +16,6 @@ export {
     Kontakty,
     Objednat,
     Buttons,
-    Footer
+    Footer,
+    ButtonKontakty
 };

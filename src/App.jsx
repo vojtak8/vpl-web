@@ -6,7 +6,9 @@ import  {  NavBar,
     Kontakty,
     Objednat,
     Buttons,
-    Footer } from './components';
+    Footer,
+    ButtonKontakty
+    } from './components';
 
 
 const App = () => (
@@ -35,14 +37,6 @@ const App = () => (
 
                 </div>
             </div>
-
-
-
-
-
-
-
-
         </div>
     );
 
